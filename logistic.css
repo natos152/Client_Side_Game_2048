@@ -1,0 +1,45 @@
+
+.container{
+    background-color: #e9ecef;
+    border-radius: 10px;
+    padding-top: 15px !important;
+   
+   direction: rtl !important;
+}
+.figure >img{
+    width: 80% !important;
+}
+.col-md-3{
+height: 1050px !important;
+
+
+}
+.col-md-3>img{
+    height: 200px !important;
+    width: 120% !important;
+}
+.col-md-6>img{
+
+    height: 360px !important;
+    width: auto !important; 
+}
+
+.md3>p{
+    direction: rtl !important;
+}
+.project>img{
+    height: 560px !important;
+    width: 1050px !important;
+}
+
+@media (min-width: 768px) {
+    .media .avatar {
+        width: 64px;
+    }
+}
+
+@media (max-width: 767px) {
+    .media .avatar {
+        width: 160px;
+    }
+}

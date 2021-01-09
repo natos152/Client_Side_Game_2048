@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="types_trips.css">
+  <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+
+  <!--BOOTSTRAP CDN-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+  <title>שביל החומוס הצפוני</title>
+</head>
+
+<body>
+  <header>
+    <div id="container">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a href="index.html" class="navbar-brand">
+          <img src="images/shvile.jpeg">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="login.html">התחברות</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">אודות השביל</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gallery.html">גלריית השביל</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="newspaper.html">כתבות מהשביל</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="updates.html">עדכונים בתוואי הדרך</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">סוגי טיול
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="South.html">שביל החומוס הדרומי</a>
+                <a class="dropdown-item" href="North.html">שביל החומוס הצפוני</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact_us.html">צור קשר</a>
+            </li>
+            <li class="nav-item"><a class="nav-link"
+                href="https://www.facebook.com/pages/category/Community/%D7%A9%D7%91%D7%99%D7%9C-%D7%99%D7%A9%D7%A8%D7%90%D7%9C-9314604730/"
+                target="_blank"><i class="fab fa-facebook icon"></i></a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="https://www.youtube.com/channel/UCPXByMh-zrYrdCf3qCiKm4g"
+                target="_blank"><i class="fab fa-youtube icon"></i></a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="https://www.instagram.com/explore/locations/525632769/-"
+                target="_blank"><i class="fab fa-instagram icon"></i></a>
+            </li>
+          </ul>
+          <a class="navbar-brand">
+            <img class="img2" src="images/lines.png">
+          </a>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <div class="container z-depth-1 my-5 pt-5 pb-3 px-5">
+
+      <!-- Section -->
+      <section>
+
+        <!-- Modal -->
+        <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+                <iframe id="player" class="embed-responsive-item" src="https://www.youtube.com/embed/U-AYmTrWtaQ"
+                  frameborder="0" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+                <iframe id="player" class="embed-responsive-item" src="https://www.youtube.com/embed/3Ud-4VtO4yg"
+                  frameborder="0" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="modal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+                <iframe id="player" class="embed-responsive-item" src="https://www.youtube.com/embed/LHu7_h-_e9Q"
+                  frameborder="0" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+        <h2 class="font-weight-bold text-center dark-grey-text pb-2">יוצאים לדרך...</h2>
+        <h2 style="font-size: 25px !important;" class="font-weight-bold text-center dark-grey-text pb-2">מהדרום לצפון</h2>
+        <hr class="hr-primary">
+        <p class="lead text-center text-muted pt-2 mb-5">הנה מקטעיו השונים של שביל ישראל מדרום לצפיון, עם חלוקה מומלצת
+          לימי הטיול.
+        </p>
+        <br>
+        <div class="row align-items-right">
+
+          <div class="col-lg-5 col-l-4">
+            <div class="view z-depth-1-half rounded">
+              <img class="rounded img-fluid" src="gallery img/מבאר אפעה לחניון מצד תמר.jpg" alt="Video title">
+              <div class="mask flex-center rgba-black-light">
+                <a id="play" class="btn-floating btn-info btn-lg" data-toggle="modal" data-target="#modal1"><i
+                    class="fas fa-play"></i></a>
+              </div>
+            </div>
+
+            <div class="view z-depth-1-half rounded">
+              <img class="rounded img-fluid" src="gallery img/הרי אילת.jpg">
+            </div>
+
+            <div class="view z-depth-1-half rounded">
+              <img class="rounded img-fluid" src="gallery img/מתל אביב לכפר סירקין.jpg" alt="Video title">
+              <div class="mask flex-center rgba-black-light">
+                <a id="play" class="btn-floating btn-info btn-lg" data-toggle="modal" data-target="#modal2"><i
+                    class="fas fa-play"></i></a>
+              </div>
+            </div>
+            <div class="view z-depth-1-half rounded">
+              <img class="rounded img-fluid" src="gallery img/מכפר סירקין לגמזו.jpg">
+            </div>
+            <div class="view z-depth-1-half rounded">
+              <img class="rounded img-fluid" src="gallery img/רמות נפתלי.jpg" alt="Video title">
+              <div class="mask flex-center rgba-black-light">
+                <a id="play" class="btn-floating btn-info btn-lg" data-toggle="modal" data-target="#modal3"><i
+                    class="fas fa-play"></i></a>
+              </div>
+            </div>
+            <div class="view z-depth-1-half rounded">
+              <img class="rounded img-fluid" src="gallery img/דן בצפון.jpg" alt="Video title">
+
+            </div>
+          </div>
+          <div class="col-lg-6 mb-4">
+
+            <ol class="step pl-0">
+              <li class="step-element pb-0">
+                <div class="step-number">
+                  <span class="number">1</span>
+                </div>
+                <div class="step-excerpt">
+                  <h6 class="font-weight-bold dark-grey-text mb-3">מצפה רמון עד שחרות</h6>
+                  <p class="text-muted">משחרות, דרך צוקי תמנע ומעלה מלחן, לכניסה לפארק תמנע. לינה בקיבוץ סמר.<br>
+                    מפארק תמנע, דרך הפארק עד נחל רחם. לינה בבאר אורה (סטייה מהשביל, צריך לעבור דרך באר אורה הנטושה).<br>
+                    מבאר אורה דרך גבי רחם, הר אמיר, קניון שחורת והר שחורת לעין נטפים. לינה בחניון לילה הר יהורם.<br>
+                    מחניון יהורם, דרך נחל גשרון, מעלה גשרון והר צפחות, עד לחוף האלמוגים באילת, ליד מעבר הגבול, לינה
+                    באילת,
+                    מנוחה ונופש באילת.<br>
+                    סוף הטיול!</p>
+                </div>
+              </li>
+              <li class="step-element pb-0">
+                <div class="step-number">
+                  <span class="number">2</span>
+                </div>
+                <div class="step-excerpt">
+                  <h6 class="font-weight-bold dark-grey-text mb-3">מצפה רמון עד שחרות</h6>
+                  <p class="text-muted">ממצפה רמון, דרך שן רמון, לחניון נחל גוונים ולינה שם. לוקח רק חצי יום. ניתן לסטות
+                    לחניון בארות לארוחה (טובה מאוד) ולמלא מים.<br>
+                    מחניון נחל גוונים, דרך הר סהרונים ונחל נקרות, לחניון לילה נחל גלד (גב חולית).
+                    מחניון לילה נחל גלד, דרך הר יהב, נחל צבירה והקלדרה לספיר. לינה בצופר.<br>
+                    מצופר (חזרה לשביל דרך נחל עומר) על שביל המעיינות עד נחל ברק. קובי דרשר (052-3666656) הביא לנו מים
+                    ואוכל שקנינו בצופר (תמורת תשלום). לינה בכניסה לקניון ברק.<br>
+                    מקניון ברק דרך קניון ורדית, לנחל פארן עד צומת ציחור. אפשר לקחת טרמפ מצומת ציחור לצומת שיזפון (השביל
+                    עובר על כביש 40 לאורך כ-30 ק"מ). לינה בנאות סמדר בחדר אירוח שביליסטים (מזכירות נאות סמדר
+                    08-6358111),
+                    מנאות סמדר דרך עובדה לשחרות, לינה בשחרות.</p>
+                </div>
+              </li>
+              <li class="step-element pb-0">
+                <div class="step-number">
+                  <span class="number">3</span>
+                </div>
+                <div class="step-excerpt">
+                  <h6 class="font-weight-bold dark-grey-text mb-3">נחל מדור עד מצפה רמון</h6>
+                  <p class="text-muted">מערד עד נחל חימר. לינה ליד כביש מחניון לילה נחל מדור, דרך בקעת צין ומעלה צין,
+                    למדרשת בן גוריון (סטיה מהשביל). לוקח רק חצי יום. לינה במדרשת בן גוריון.<br>
+                    ממדרשת בן גוריון למעלה חוד עקב, עין עקב ועין שביב, עד חניון לילה נחל חווה ולינה שם.<br>
+                    מחניון לילה נחל חווה, דרך גבי חווה (שווה לסטות לגבים, יש שם מים) למצפה רמון. לינה בבי"ס שדה הר הנגב,
+                    יום מנוחה במצפה רמון.</p>
+                </div>
+              </li>
+              <li class="step-element pb-0">
+                <div class="step-number">
+                  <span class="number">4</span>
+                </div>
+                <div class="step-excerpt">
+                  <h6 class="font-weight-bold dark-grey-text mb-3">ערד עד נחל מדור</h6>
+                  <p class="text-muted">מערד עד נחל חימר. לינה ליד כביש 258.
+                    מנחל חימר, דרך בקעת הצבאים למצד תמר ולינה שם. כדאי למלא מים ולקנות אוכל למספר ימים בנאות הכיכר.
+                    ממצד תמר דרך נחל צפית (יש מים בעין צפית אבל לא לשתיה) ומעלה עלי לחניון מצפה המכתש (חניון עקרבים)
+                    ולינה שם. לעיתים ניתן למלא מים במוצב שליד חניון עקרבים, אבל לא לבנות על זה כי לא תמיד יש להם מים
+                    לתת.<br>
+                    ממצפה המכתש דרך מצד צפיר, נחל חתירה, עין יורקעם (יש שם מים אבל לא לשתיה) והסנפיר הגדול, עד חניון
+                    לילה ליד מפעלי אורון ולינה שם.<br>
+                    מחניון לילה ליד מפעלי אורון עולים לכרבולת, הליכה על הכרבולת ויורדים דרך נחל עפרן (הליכה קשה מאוד),
+                    לינה בחניון לילה נחל מדור.</p>
+                </div>
+              </li>
+              <li class="step-element pb-0">
+                <div class="step-number">
+                  <span class="number">5</span>
+                </div>
+                <div class="step-excerpt">
+                  <h6 class="font-weight-bold dark-grey-text mb-3">בית גוברין עד ערד</h6>
+                  <p class="text-muted">מבית גוברין, דרך המטעים של לכיש ודרך תל קשת, עד לתל נגילה. לינה בשדות ליד תל
+                    נגילה. השביל שונה באיזור זה בגלל כביש 6 ולא עובר באחוזם, ולכן עשינו סטיה מתל קשת לאחוזם על מנת למלא
+                    מים.<br>
+                    מתל נגילה, דרך דביר, עד קיבוץ להב. לינה בלהב בחדר אירוח שביליסטים. (אבי נבון 050-5474749).<br>
+                    מקיבוץ להב דרך סנסנה ומיתר, עד בית היערן ביער יתיר. לינה בבית היערן בחדר אירוח שביליסטים (עבד
+                    050-5633468).<br>
+                    מבית היערן ביער יתיר, דרך הר עמשא, דוריג'את, תל ערד ופארק ערד עד ערד, לינה בערד.</p>
+                </div>
+              </li>
+              <li class="step-element pb-0">
+                <div class="step-number">
+                  <span class="number">6</span>
+                </div>
+                <div class="step-excerpt">
+                  <h6 class="font-weight-bold dark-grey-text mb-3">יישוב גימזו עד בית גוברין</h6>
+                  <p class="text-muted">מגימזו דרך שעלבים ולטרון, עד נווה שלום. לינה בנווה שלום.<br>
+                    מנווה שלום על דרך בורמה ודרך צובה, עד הסטף. לינה בחניון הסטף.<br>
+                    מהסטף דרך נחל רפאים, עד חרבת חנות. לינה בירושלים.<br>
+                    מחרבת חנות דרך תל עזקה ויער בריטניה, למצפה משואה. לינה בשריגים-ליאון.<br>
+                    ממצפה משואה דרך תל גודד לבית גוברין (לוקח רק חצי יום), לינה בקיבוץ בית גוברין.<br>
+                    יום מנוחה בבית גוברין.</p>
+                </div>
+              </li>
+              <li class="step-element pb-0">
+                <div class="step-number">
+                  <span class="number">7</span>
+                </div>
+                <div class="step-excerpt">
+                  <h6 class="font-weight-bold dark-grey-text mb-3">יער חדרה עד יישוב גימזו</h6>
+                  <p class="text-muted">מיער חדרה, דרך נחל אלכסנדר ונתניה, עד החוף הירוק בפולג. לינה בחוף הירוק
+                    בפולג.<br>
+                    מהחוף הירוק, דרך הרצליה לתל אביב, עד הספורטק בפארק הירקון. לינה בתל אביב.
+                    יום מנוחה בתל אביב.<br>
+                    מפארק הירקון, דרך נחל ירקון עד עין אפק - מבצר אנטיפטריס. לינה בכפר מעש.
+                    (לאחר דילוג על כמה ק"מ לאורך כביש 6) מאלעד דרך תל חדיד ומצפה מודיעים עד גימזו. לינה בגימזו.</p>
+                </div>
+              </li>
+              <li class="step-element pb-0">
+                <div class="step-number">
+                  <span class="number">8</span>
+                </div>
+                <div class="step-excerpt">
+                  <h6 class="font-weight-bold dark-grey-text mb-3">נצרת עילית עד חדרה</h6>
+                  <p class="text-muted">מנצרת עלית דרך משהד ויער ציפורי, לצומת המוביל (לוקח רק חצי יום). לינה באלון
+                    הגליל.<br>
+                    מאלון הגליל דרך כעביה ונופית, עד קיבוץ יגור. לינה בחיפה.
+                    מקיבוץ יגור עולים את הכרמל לעוספיה, משם יורדים דרך נחל חיק ונחל אורן עד חניון אורן. לינה בחיפה.<br>
+                    מחניון אורן עד צומת שפיה. לינה בעין איילה.
+                    משפיה דרך פארק הנדיב וג'סר אזרקא, עד גן לאומי קיסריה. לינה בחדרה (דילוג על ההליכה על הכביש באיזור
+                    פארק נחל חדרה).<br>
+                  </p>
+                </div>
+              </li>
+              <li class="step-element pb-0">
+                <div class="step-number">
+                  <span class="number">9</span>
+                </div>
+                <div class="step-excerpt">
+                  <h6 class="font-weight-bold dark-grey-text mb-3">קדרים עד להר יונה (נצרת עילית)</h6>
+                  <p class="text-muted">מקדרים, דרך נחל עמוד תחתון ועין נון, עד מגדל. לינה במגדל ליד המתנ"ס של הישוב.
+                    ממגדל דרך הארבל, טבריה עילית ויער שוויץ, עד הכנרת לחוף של קיבוץ דגניה (ליד הסכר) ולינה בחוף, לאחר
+                    תיאום עם מלאך השביל מדגניה ב' (שמואל לובין 054-7731901).
+                    יום מנוחה בחוף דגניה.<br>
+                    מהכנרת דרך הר יבניאל ועין אולם (לא לשתות מהמים שם), עד צומת גזית, לינה לשביליסטים בבי"ס שדה אלון
+                    תבור (04-6766250/5).<br>
+                    מצומת גזית עולים ויורדים את התבור, כנ"ל הר דבורה ומגיעים להר יונה (שכונה בנצרת עלית). לינה בנצרת
+                    עלית.</p>
+                </div>
+              </li>
+              <li class="step-element pb-0">
+                <div class="step-number">
+                  <span class="number">10</span>
+                </div>
+                <div class="step-excerpt">
+                  <h6 class="font-weight-bold dark-grey-text mb-3">קדרים עד להר יונה (נצרת עילית)</h6>
+                  <p class="text-muted">מקדרים, דרך נחל עמוד תחתון ועין נון, עד מגדל. לינה במגדל ליד המתנ"ס של הישוב.
+                    ממגדל דרך הארבל, טבריה עילית ויער שוויץ, עד הכנרת לחוף של קיבוץ דגניה (ליד הסכר) ולינה בחוף, לאחר
+                    תיאום עם מלאך השביל מדגניה ב' (שמואל לובין 054-7731901).
+                    יום מנוחה בחוף דגניה.<br>
+                    מהכנרת דרך הר יבניאל ועין אולם (לא לשתות מהמים שם), עד צומת גזית, לינה לשביליסטים בבי"ס שדה אלון
+                    תבור (04-6766250/5).<br>
+                    מצומת גזית עולים ויורדים את התבור, כנ"ל הר דבורה ומגיעים להר יונה (שכונה בנצרת עלית). לינה בנצרת
+                    עלית.</p>
+                </div>
+              </li>
+              <li class="step-element pb-0">
+                <div class="step-number">
+                  <span class="number">11</span>
+                </div>
+                <div class="step-excerpt">
+                  <h6 class="font-weight-bold dark-grey-text mb-3">נחל שניר עד לקדרים</h6>
+                  <p class="text-muted">ממבית אוסישקין, דרך נחל שניר וחניון מעין עד לכפר גלעדי. לינה בחניון בתל-חי, מתחת
+                    לבית הקברות ופסל הארי השואג.
+                    <br>
+                    מתל-חי, למצודת ישע ולינה באתר ההנצחה שיש שם.
+                    ממצודת ישע, דרך רמות נפתלי לנחל דישון והגעה עם טרמפ ליראון, שם ישנם חדרי אירוח לשביליסטים.
+                    <br>
+                    מנחל דישון עליון, דרך נחל צבעון וחרבת חממה, לחניון הפסגה בהר מירון. לינה בחרבת חממה (אסור לישון
+                    בחניון הפסגה ואין שם מים, בניגוד למסומן במפה).
+                    <br>
+                    מחניון הפסגה דרך חניון מירון (הפיתול) לנחל עמוד עד כביש 85, לינה בקדרים.</p>
+                </div>
+              </li>
+            </ol>
+          </div>
+        </div>
+
+      </section>
+      <!-- Section -->
+
+    </div>
+
+  </main>
+  <footer class="page-footer font-small cyan darken-3">
+    <ul>
+      <li class="list-inline-item">
+        <h7 class="mb-1">הצטרפו להיות חלק ממשפחת השביל</h7>
+      </li>
+      <li class="list-inline-item">
+        <a href="newacount.html" class="btn btn-outline-white btn-rounded">הירשם עכשיו!</a>
+      </li>
+    </ul>
+    </div>
+    <a href="https://www.facebook.com/pages/category/Community/%D7%A9%D7%91%D7%99%D7%9C-%D7%99%D7%A9%D7%A8%D7%90%D7%9C-9314604730/"
+      target="_blank" class="fab fa-facebook icon" style=color:white></a>&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="https://www.youtube.com/channel/UCPXByMh-zrYrdCf3qCiKm4g" target="_blank" class="fab fa-youtube icon"
+      style=color:white></a>&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="https://www.instagram.com/explore/locations/525632769/-" target="_blank" class="fab fa-instagram icon"
+      style=color:white></a>&nbsp;&nbsp;&nbsp;&nbsp;
+    <div>כל הזכויות שמורות להנהלת השביל 2020 ©</div>
+  </footer>
+</body>
+
+</html>

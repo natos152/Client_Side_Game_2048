@@ -1,0 +1,127 @@
+body {
+    background-image: url('images/guy-mountain-travel.jpg') !important;
+    background-size: cover;
+    background-repeat: no-repeat !important;
+    width: 100%!important;
+    height: 100% !important;
+    direction: rtl!important;
+    overflow: hidden !important;
+}
+
+header {
+    text-align: center!important;
+}
+
+nav.navbar {
+    background-color: #17a2b8!important;
+}
+
+a.nav-link {
+    padding: 1.2em!important;
+    font-weight: bold!important;
+}
+
+.dropdown-menu {
+    background-color: #17a2b8!important;
+    min-width: 100px!important;
+    text-align: center!important;
+    margin-right: 5em!important;
+}
+
+.dropdown-item {
+    color: rgb(38, 101, 109)!important;
+    font-weight: bold!important;
+}
+
+.dropdown-item :hover {
+    font-weight: bold!important;
+    background-color: rgb(38, 101, 109)!important;
+    border-radius: 0.5em!important;
+}
+
+li a:hover {
+    border-radius: 1em!important;
+    background-color: rgb(38, 101, 109);
+}
+
+img {
+    width: 110px!important;
+    height: 60px!important;
+    border-radius: 0.5em;
+}
+
+.img2 {
+    float: left!important;
+    width: 50px!important;
+    height: 50px!important;
+    margin-right: 90%!important;
+}
+
+main {
+    width: 100%!important;
+}
+
+h3 {
+    font-weight: normal!important;
+    color: white!important;
+    text-align: right!important;
+}
+
+.card {
+    height: 370px!important;
+    text-align: left!important;
+    width: 400px!important;
+    background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.card-header h3 {
+    color: white;
+    text-align: right;
+}
+
+.remember {
+    color: white;
+}
+
+.remember input {
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    margin-right: 5px;
+}
+
+a.btn {
+    color: #fff!important;
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+    text-align: right!important;
+}
+
+.links {
+    color: white;
+}
+
+.links a {
+    margin-left: 4px;
+}
+
+.link a {
+    color: rgb(255, 255, 255) !important;
+}
+
+dl, ol, ul {
+    margin-bottom: 0rem!important;
+}
+
+.page-footer {
+    display: block;
+    background-color: #17a2b8;
+    color: white!important;
+    font-weight: normal!important;
+    text-align: center!important;
+    padding-bottom: 0.3em!important;
+    left: 0!important;
+    bottom: 0!important;
+    width: 100%!important;
+    position: fixed!important;
+}

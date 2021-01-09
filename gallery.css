@@ -1,0 +1,20 @@
+.carousel-item>a>img {
+    margin:auto!important;
+    border-radius: 8px !important;
+    height: 550px!important;
+    width: 800px!important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)!important;
+}
+
+body {
+    background-color: rgb(234, 243, 240)!important;
+}
+
+main {
+    margin-left: 22% !important;
+    margin-right: 22% !important;
+}
+h5{
+    margin: auto!important;
+    text-align: center!important;
+}
